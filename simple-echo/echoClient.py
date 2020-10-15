@@ -9,8 +9,6 @@ switchesVarDefaults = (
     (('-s', '--server'), 'server', "127.0.0.1:50001"),
     (('-?', '--usage'), "usage", False), # boolean (set if present)
     )
-
-
 progname = "framedClient"
 paramMap = params.parseParams(switchesVarDefaults)
 
